@@ -1,5 +1,6 @@
-# Project Name: About Me
-## John Rayome
-### John Rayome
+# LAB 0-1
+## Project Name: About Me
+## Author Name: John Rayome
 
-I built this site to give users a short introduction to my story with a small quiz at the end to see if the user was paying attention.
+
+I built this site to ask questions to the user before they gain access to the information. This was build with HTML, CSS, and JavaScript.
