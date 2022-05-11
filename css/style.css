@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 body{
   background-color: blanchedalmond;
   margin: 5px;
@@ -7,22 +9,52 @@ body{
 
 
 h1{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Oleo Script Swash Caps', cursive;
  background-color: blue;
  font-size: xx-large;
- color: orange
+ color: orange;
+ text-align: center;
+ text-decoration: underline;
 }
 
 main{
-  display: flex;
-  justify-content:space-evenly;
+  padding-top: 10px;
+  display:inline-block;
 }
 
-p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  height: 190px;
-  width: 300px;
-  border: 5px;
-  border-style: solid;
-  border-color: blue;
+/* article{ */
+  /* align-items: center; */
+/* } */
+
+#p1{
+  font-family: 'Macondo', cursive;
+  height: 130px;
+  width: 400px;
+  border: 10px;
+  border-style: ridge;
+  border-color: rgb(112, 2, 2);
+  text-align: center;
+}
+
+#p2{
+  
+  font-family: 'Macondo', cursive;
+  margin-left:200px;
+  height: 130px;
+  width: 400px;
+  border: 15px;
+  border-style:ridge;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#p3{
+  font-family: 'Macondo', cursive;
+  margin-left:400px;
+  height: 100px;
+  width: 400px;
+  border: 10px;
+  border-style: ridge;
+  border-color: rgb(3, 3, 105);
+  text-align: center;
 }
