@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 body{
-  background-color: blanchedalmond;
+  background-color: rgb(229, 226, 226);
   margin: 5px;
   padding: 5px;
   color:rgb(149, 60, 28)
@@ -38,6 +38,7 @@ article{
 #pIntro{
   align-self: center;
   font-family: 'Macondo', cursive;
+  font-style: italic;
   height: 130px;
   width: 400px;
   border: 10px;
@@ -46,6 +47,7 @@ article{
   border-radius: 80px 50px;
   text-align: center;
   margin: auto;
+  padding: 15px;
 }
 
 
@@ -54,21 +56,24 @@ ul{
   list-style: disc;
   justify-content:center; 
   font-family: 'Macondo', cursive;
-  height: 130px;
+  height: auto;
   width: 400px;
   border: 15px;
   border-style:ridge;
   border-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: -5px -10px darkblue;
   margin: auto;
 }
 
 #p3{
   font-family: 'Macondo', cursive;
-  height: 100px;
+  height: auto;
   width: 400px;
   border: 10px;
   border-style: ridge;
   border-color: rgb(3, 3, 105);
+  box-shadow: -5px -5px orange ;
   text-align: center;
   margin: auto;
   margin-top: 50px;
@@ -78,7 +83,10 @@ h2{
   margin-top: 25px;
   text-align: center;
   text-shadow: 5px;
-  font-size:x-large;
+  font-size:xx-large;
+  font-style:oblique;
+  color:rgb(193, 83, 4);
+  padding-bottom: 5px;
 }
 
 ol{
