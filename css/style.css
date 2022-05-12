@@ -10,11 +10,11 @@ body{
 
 h1{
   font-family: 'Oleo Script Swash Caps', cursive;
- background-color: blue;
- font-size: xx-large;
- color: orange;
- text-align: center;
- text-decoration: underline;
+  background-color: blue;
+  font-size: xx-large;
+  color: orange;
+  text-align: center;
+  text-decoration: underline;
 }
 
 main{
