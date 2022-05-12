@@ -85,7 +85,7 @@ let newAttempts = 6;
 
 while (userCountry !== countries[0] || userCountry !== countries[1] || userCountry !== countries[2] || userCountry !== countries[3]) {
   if (newAttempts === 0) {
-    alert('The countries I\'ve visited are ' + countries[0] + ", " + countries[1] + ", " + countries[2] + ", and " + countries[3]);
+    alert('The countries I\'ve visited are ' + countries[0] + ', ' + countries[1] + ', ' + countries[2] + ', and ' + countries[3]);
   }
   userCountry = prompt('What countries have I been to?').toLowerCase();
   if (userCountry === countries[0]) {
