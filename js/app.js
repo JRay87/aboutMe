@@ -9,12 +9,10 @@ function quDog() {
 
   let answerOne = prompt('Do I have a dog?').toLowerCase();
   if (answerOne === 'yes' || answerOne === 'y') {
-    // console.log(userName + ', you are correct!');
     alert(userName + ', you are correct!');
     score++;
     console.log(answerOne + ' - ' + score + '\'s questions right');
   } else if (answerOne === 'no' || answerOne === 'n') {
-    // console.log('That\'s not correct ' + userName);
     alert('That\'s not correct ' + userName);
   }
 }
@@ -25,10 +23,8 @@ function quNY() {
 
   let answerTwo = prompt('Was I born in in New York?').toLowerCase();
   if (answerTwo === 'yes' || answerTwo === 'y') {
-    // console.log('That\'s not correct ' + userName);
     alert('That\'s not right ' + userName);
   } else if (answerTwo === 'no' || answerTwo === 'n') {
-    // console.log(userName + ', you are correct!');
     alert(userName + ', you are correct!');
     score++;
     console.log(answerTwo + ' - ' + score + ' questions right');
@@ -41,12 +37,10 @@ function quAF() {
 
   let answerThree = prompt('Did I serve in the Air Force?').toLowerCase();
   if (answerThree === 'yes' || answerThree === 'y') {
-    // console.log(userName + ', you are correct!')
     alert(userName + ', you are correct!');
     score++;
     console.log(answerThree + ' - ' + score + '\'s questions right');
   } else if (answerThree === 'no' || answerThree === 'n') {
-    // console.log('That\'s not correct ' + userName);
     alert('That\'s not correct');
   }
 }
@@ -57,10 +51,8 @@ function quCode() {
 
   let answerFour = prompt('Do I have a lot of experience with coding?').toLowerCase();
   if (answerFour === 'yes' || answerFour === 'y') {
-    // console.log('That\'s not correct ' + userName);
     alert('That\'s not correct!');
   } else if (answerFour === 'no' || answerFour === 'n') {
-    // console.log(userName + ', you are correct!')
     alert(userName + ', you are correct!');
     score++;
     console.log(answerFour + ' - ' + score + ' questions right');
@@ -78,7 +70,6 @@ function quMets() {
     console.log(answerFive + ' - ' + score + ' questions right');
     alert(userName + ', you are correct!');
   } else if (answerFive === 'no' || answerFive === 'n') {
-    // console.log('That\'s not correct ' + userName);
     alert('That\'s not correct');
   }
 }
